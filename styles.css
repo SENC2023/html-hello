@@ -1,0 +1,46 @@
+body {
+    background: lightgray;
+    margin: 0;
+}
+header {
+    background: white;
+    padding: 10px;
+}
+header h1 {
+    margin: 0;
+    font-family: 'Carattere', cursive;
+}
+.wrapper {
+    background: white;
+    margin-top: 10px;
+}
+.wrapper h2, .wrapper span{
+    padding: 10px;
+    margin: 0;
+}
+.post-wrapper {
+    width: 100%;
+    display: flex;
+}
+.post-wrapper h2 {
+    display: inline-block;
+    width: 80%;
+    font-family: 'DM Serif Display', serif;
+}
+.post-wrapper span {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    color: gray;
+}
+.wrapper img {
+    width: 100%;
+}
+.container {
+    width: 600px;
+    margin: auto;
+}
+p {
+    font-family: 'DM Serif Display', serif;
+    padding: 10px;
+}
